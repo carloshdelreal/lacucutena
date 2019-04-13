@@ -1,0 +1,20 @@
+.hero-body{
+    padding-bottom: 25vh;
+    padding-top: 25vh;
+}
+.hero.is-medium .hero-body{
+    padding-bottom: 20vh;
+    padding-top: 15vh;
+}
+.card-image>img{
+    height: 50px;
+}
+.hero-body img{
+    height: 90px;
+}
+.navbar.is-fixed-top{
+    background-color: white;
+}
+.sel{
+    background-color: yellow;
+}
