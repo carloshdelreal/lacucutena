@@ -9,7 +9,6 @@
     
     var anchors = document.querySelectorAll('.navbar-item');
     anchors.forEach(function(element){ 
-        console.log(element.getAttribute('href'))
         if (element.getAttribute('href') != '#home'){
             element.addEventListener('click', function () { 
                 anchors.forEach(function(elmt){
